@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: 76d1fd554c9fb574b827e4e032d1f112
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7422918670136922480
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_0"
+  - first:
+      213: -1755406729699073637
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_1"
+  - first:
+      213: -8589853440312995035
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_2"
+  - first:
+      213: 388158500823443444
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_3"
+  - first:
+      213: -8173346003766741548
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_4"
+  - first:
+      213: -1641731661523970227
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_5"
+  - first:
+      213: 7711361169897947928
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_6"
+  - first:
+      213: -73901074084857264
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_7"
+  - first:
+      213: 1083098355881165242
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_8"
+  - first:
+      213: -4005915461799874554
+    second: "Arthur crian\xE7a anima\xE7\xE3o Sprite_9"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_0"
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 322
+        width: 250
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0715022c331830760800000000000000
+      internalID: 7422918670136922480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_1"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 314
+        width: 249
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91e4ff31ea83a7e0800000000000000
+      internalID: -1755406729699073637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_2"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 302
+        width: 249
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5231a799ec5bac880800000000000000
+      internalID: -8589853440312995035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_3"
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 311
+        width: 249
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f721269914036500800000000000000
+      internalID: 388158500823443444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_4"
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 316
+        width: 250
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5ff132d11729e80800000000000000
+      internalID: -8173346003766741548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_5"
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 319
+        width: 250
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d471a5a80c56739e0800000000000000
+      internalID: -1641731661523970227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Arthur crian\xE7a anima\xE7\xE3o Sprite_6"
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 324
+        width: 255
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8130282a022440b60800000000000000
+      internalID: 7711361169897947928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f1bf9f908e1d07d4fa6bfd963135c1cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_0": 7422918670136922480
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_1": -1755406729699073637
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_2": -8589853440312995035
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_3": 388158500823443444
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_4": -8173346003766741548
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_5": -1641731661523970227
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_6": 7711361169897947928
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_7": -73901074084857264
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_8": 1083098355881165242
+      "Arthur crian\xE7a anima\xE7\xE3o Sprite_9": -4005915461799874554
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
