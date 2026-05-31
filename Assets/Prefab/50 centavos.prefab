@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8633993322001622452}
   m_Layer: 5
   m_Name: 50 centavos
-  m_TagString: Untagged
+  m_TagString: 50
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,3 +89,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items
   noDrop: 1
+  money: 1

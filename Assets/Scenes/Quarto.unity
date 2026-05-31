@@ -337,6 +337,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde3cf797108a374faa04ef842ac68ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+--- !u!1 &444342474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8042052913849159355, guid: fa775691a3afdc1439d7cd92f412fbe6, type: 3}
+  m_PrefabInstance: {fileID: 2297729662536065473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &444342476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444342474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8383e5e92c52e9a429818f05e60674fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reality
+  playerData: {fileID: 11400000, guid: f9b94ab813c413f4c9d6147f275f7642, type: 2}
+  temUI: 1
+  renderers:
+  - {fileID: 1071311232}
+  - {fileID: 999436850}
+  - {fileID: 1096601446}
+  - {fileID: 1849184177}
+  sReal:
+  - {fileID: -6123539293211243859, guid: 333d381a3c5724a43b91a32fdb8abb92, type: 3}
+  - {fileID: 333433407120955317, guid: 2b3ed48bb7c6e7e478a4e1d4e640a81c, type: 3}
+  - {fileID: -3887291904441163570, guid: 03d5dc437a38c2a4fb925a590cbd90e6, type: 3}
+  - {fileID: 3240130137451975133, guid: 3f679b72741f96c4cb5c288ae9f1e0b8, type: 3}
+  sRPG:
+  - {fileID: 6654160604267652850, guid: b92e02349814b3444bf387db8045078c, type: 3}
+  - {fileID: -5254126782422515306, guid: 2b3ed48bb7c6e7e478a4e1d4e640a81c, type: 3}
+  - {fileID: -1741436399937370474, guid: 03d5dc437a38c2a4fb925a590cbd90e6, type: 3}
+  - {fileID: 2512086526560966784, guid: 9a93a72edd3b8e3498b3180711cf413b, type: 3}
+  sUIReal:
+  - {fileID: -6998877306741807844, guid: 9e8e780e60827634783674996fd5ecf1, type: 3}
+  - {fileID: 538058916437589002, guid: 1f73efa669d831f41975db9f7f7ab3da, type: 3}
+  - {fileID: 2872171735747951626, guid: daed0c15c21fc2e4e89816e0c9472a96, type: 3}
+  - {fileID: -6998877306741807844, guid: 9e8e780e60827634783674996fd5ecf1, type: 3}
+  - {fileID: 538058916437589002, guid: 1f73efa669d831f41975db9f7f7ab3da, type: 3}
+  - {fileID: 2872171735747951626, guid: daed0c15c21fc2e4e89816e0c9472a96, type: 3}
+  sUIRPG:
+  - {fileID: 538058916437589002, guid: 1f73efa669d831f41975db9f7f7ab3da, type: 3}
+  - {fileID: 2872171735747951626, guid: daed0c15c21fc2e4e89816e0c9472a96, type: 3}
+  - {fileID: -6998877306741807844, guid: 9e8e780e60827634783674996fd5ecf1, type: 3}
+  - {fileID: 538058916437589002, guid: 1f73efa669d831f41975db9f7f7ab3da, type: 3}
+  - {fileID: 2872171735747951626, guid: daed0c15c21fc2e4e89816e0c9472a96, type: 3}
+  - {fileID: -6998877306741807844, guid: 9e8e780e60827634783674996fd5ecf1, type: 3}
+  images:
+  - {fileID: 746832595}
+  - {fileID: 2072371360}
+  - {fileID: 1287696163}
+  - {fileID: 1548062777}
+  - {fileID: 1752691908}
+  - {fileID: 580041748}
 --- !u!1 &565559967
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,6 +579,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b88836539203b49ae61700d6a0362e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Slot
+  tagItem: regua
+  libray: 0
+  normal: 1
+  valor: 0
+  Canvas: {fileID: 0}
 --- !u!114 &580041748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,7 +832,7 @@ GameObject:
   - component: {fileID: 746832594}
   m_Layer: 5
   m_Name: Borracha
-  m_TagString: Untagged
+  m_TagString: borracha
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -809,6 +869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items
   noDrop: 1
+  money: 0
 --- !u!114 &746832595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1472,7 +1533,7 @@ GameObject:
   - component: {fileID: 1287696162}
   m_Layer: 5
   m_Name: Regua
-  m_TagString: Untagged
+  m_TagString: regua
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1509,6 +1570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items
   noDrop: 1
+  money: 0
 --- !u!114 &1287696163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1705,6 +1767,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b88836539203b49ae61700d6a0362e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Slot
+  tagItem: borracha
+  libray: 0
+  normal: 1
+  valor: 0
+  Canvas: {fileID: 0}
 --- !u!114 &1548062777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2027,6 +2094,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b88836539203b49ae61700d6a0362e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Slot
+  tagItem: lapis
+  libray: 0
+  normal: 1
+  valor: 0
+  Canvas: {fileID: 0}
 --- !u!114 &1752691908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2399,7 +2471,7 @@ GameObject:
   - component: {fileID: 2072371359}
   m_Layer: 5
   m_Name: Lapis
-  m_TagString: Untagged
+  m_TagString: lapis
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2436,6 +2508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Items
   noDrop: 1
+  money: 0
 --- !u!114 &2072371360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2569,7 +2642,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8042052913849159355, guid: fa775691a3afdc1439d7cd92f412fbe6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 444342476}
   m_SourcePrefab: {fileID: 100100000, guid: fa775691a3afdc1439d7cd92f412fbe6, type: 3}
 --- !u!1001 &4797532066509991813
 PrefabInstance:
@@ -2585,7 +2661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1263131005676924103, guid: 8c7d1c4c2defdf144a6b772e97d6894b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.19
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 1263131005676924103, guid: 8c7d1c4c2defdf144a6b772e97d6894b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2735,11 +2811,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5816310010002299985, guid: 9e5db451d960a6544b279dc94298e60a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0089
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 5816310010002299985, guid: 9e5db451d960a6544b279dc94298e60a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.18
+      value: -4.31
       objectReference: {fileID: 0}
     - target: {fileID: 5816310010002299985, guid: 9e5db451d960a6544b279dc94298e60a, type: 3}
       propertyPath: m_LocalPosition.z

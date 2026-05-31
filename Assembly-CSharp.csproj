@@ -50,13 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\MineGameMemory.cs" />
     <Compile Include="Assets\Scripts\Key_F.cs" />
     <Compile Include="Assets\Scripts\Items.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\DialogueData.cs" />
+    <Compile Include="Assets\Scripts\MineGameLibray.cs" />
+    <Compile Include="Assets\Scripts\Reality.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />
     <Compile Include="Assets\Scripts\Slot.cs" />
+    <Compile Include="Assets\Scripts\Medal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

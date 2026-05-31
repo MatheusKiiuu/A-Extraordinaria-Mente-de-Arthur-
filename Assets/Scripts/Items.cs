@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Items : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     public bool noDrop = true;
+    public bool money;
 
     private Vector3 positionGameObject;
 
@@ -41,6 +42,7 @@ public class Items : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, I
     {
         if(noDrop)
             transform.position = positionGameObject;
-        image.raycastTarget = true;
+        if(!money)
+            image.raycastTarget = true;
     }
 }

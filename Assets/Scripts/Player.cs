@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 
         if (playerScene == "Quarto" && playerData.quarto)
         {
-            transform.position = new Vector3(8f, -2.19f, 0f);
+            transform.position = new Vector3(8f, -2.2f, 0f);
             spriteRenderer.flipX = false;
             playerData.quarto = false;
         }

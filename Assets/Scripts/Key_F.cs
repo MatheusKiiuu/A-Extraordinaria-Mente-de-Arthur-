@@ -20,11 +20,11 @@ public class Key_F : MonoBehaviour
 
     private void Start()
     {
+        keyFAction = InputSystem.actions.FindAction("Player/Interaction");
+
         keyF.SetActive(false);
         if (menuDrag)
             canva.SetActive(false);
-
-        keyFAction = InputSystem.actions.FindAction("Player/Interaction");
     }
     private void Update()
     {

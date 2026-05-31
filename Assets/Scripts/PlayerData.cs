@@ -7,6 +7,10 @@ public class PlayerData : ScriptableObject
     public bool salaAula;
     public bool biblioteca;
     public bool cantina;
+    public bool medalhaSalaAula;
+    public bool medalhaBiblioteca;
+    public bool medalhaCantina;
+    public bool realityReal;
 
     public void VerificarScene(string scene)
     {
