@@ -202,4 +202,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde3cf797108a374faa04ef842ac68ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  playerData: {fileID: 11400000, guid: a9c7af33177dee042aee087685ba8558, type: 2}
   speed: 10

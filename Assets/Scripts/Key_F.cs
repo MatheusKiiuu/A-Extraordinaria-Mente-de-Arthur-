@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class Key_F : MonoBehaviour
 {
+    public PlayerData playerData;
+
+    public bool salve;
     public bool menuDrag;
     public bool nextScene;
     public string scene;
@@ -14,17 +16,15 @@ public class Key_F : MonoBehaviour
     public Animator playerAnimaror;
     public MonoBehaviour playerScript;
 
-    //public TextMeshProUGUI text;
-
     private InputAction keyFAction;
 
     private void Start()
     {
+        keyFAction = InputSystem.actions.FindAction("Player/Interaction");
+
         keyF.SetActive(false);
         if (menuDrag)
             canva.SetActive(false);
-
-        keyFAction = InputSystem.actions.FindAction("Player/Interaction");
     }
     private void Update()
     {
@@ -38,17 +38,11 @@ public class Key_F : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         keyF.SetActive(true);
-
-        //if (nextScene)
-        //    text.text = scene;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         keyF.SetActive(false);
-
-        //if (nextScene)
-        //    text.text = null;
     }
 
     private void MenuDrag()
@@ -74,6 +68,8 @@ public class Key_F : MonoBehaviour
     {
         if (keyFAction.WasPressedThisFrame() && keyF.activeSelf == true)
         {
+            if (salve)
+                playerData.VerificarScene(scene);
             SceneManager.LoadScene(scene);
         }
     }

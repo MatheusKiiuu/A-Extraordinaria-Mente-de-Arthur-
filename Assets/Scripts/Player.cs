@@ -1,9 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public PlayerData playerData;
+
     public float speed = 10f;
+
+    private string playerScene;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -12,12 +17,38 @@ public class Player : MonoBehaviour
 
     private InputAction moveAction;
 
+    private void Awake()
+    {
+         playerScene = SceneManager.GetActiveScene().name;  
+    }
     private void Start()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         moveAction = InputSystem.actions.FindAction("Move");
+
+        if (playerScene == "Quarto" && playerData.quarto)
+        {
+            transform.position = new Vector3(8f, -2.2f, 0f);
+            spriteRenderer.flipX = false;
+            playerData.quarto = false;
+        }
+        else if(playerScene == "Corredor" && playerData.salaAula)
+        {
+            transform.position = new Vector3(3.26f, -2.2f, 0f);
+            playerData.salaAula = false;
+        }
+        else if(playerScene == "Corredor" && playerData.biblioteca)
+        {
+            transform.position = new Vector3(5.57f, -2.2f, 0f);
+            playerData.biblioteca = false;
+        }
+        else if (playerScene == "Corredor" && playerData.cantina)
+        {
+            transform.position = new Vector3(7.68f, -2.2f, 0f);
+            playerData.cantina = false;
+        }
     }
 
     private void Update()

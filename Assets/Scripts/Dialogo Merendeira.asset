@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eaf360e941f5aa4285fa592cc8071d5, type: 3}
-  m_Name: Teste
+  m_Name: Dialogo Merendeira
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  nameData: CARAI
-  dialogueData:
-  - Toma!
-  - No cu!
-  - Porra!
-  - VAI!
+  nameData: 
+  dialogueData: []
