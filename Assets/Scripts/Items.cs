@@ -40,9 +40,9 @@ public class Items : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, I
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if(noDrop)
+        if (noDrop)
             transform.position = positionGameObject;
-        if(!money)
+        if (!money)
             image.raycastTarget = true;
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Medal : MonoBehaviour
 {
@@ -22,5 +23,8 @@ public class Medal : MonoBehaviour
             medalhas[1].SetActive(true);
         if (playerData.medalhaCantina)
             medalhas[2].SetActive(true);
+
+        if(playerData.medalhaSalaAula && playerData.medalhaBiblioteca && playerData.medalhaCantina)
+            SceneManager.LoadScene("Creditos");
     }
 }

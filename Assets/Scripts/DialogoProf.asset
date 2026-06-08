@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eaf360e941f5aa4285fa592cc8071d5, type: 3}
   m_Name: DialogoProf
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  nameData: Professor
-  dialogueData: []
+  nameData: Professor ( Mestre de Guilda )
+  dialogueData:
+  - Bom dia, Arthur
+  - Pronto para mais uma aula?
+  - Organize os pares dos materiais em cima da sua mesa
+  - Basta clicar nas cartas e encontrar as metades que se completam
+  - Mantenha a mente firme, boa sorte!!

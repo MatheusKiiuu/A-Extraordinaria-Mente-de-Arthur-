@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eaf360e941f5aa4285fa592cc8071d5, type: 3}
   m_Name: Dialogo Bibliotecario
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  nameData: 
-  dialogueData: []
+  nameData: "Bibliotecario ( Guardi\xE3o da Magia)"
+  dialogueData:
+  - "Ol\xE1 Jovem Arthur"
+  - Por favor, me ajude a organizar os livros na estante
+  - "Basta arrastar eles para os espa\xE7os que eles pertencem na ordem"
+  - Lembre-se que alguns livros tem um simbolo em vez de numero
+  - Basta olhar o quadro aqui do lado e fazer uma soma simples
+  - "Eu sei que voc\xEA consegue!!"

@@ -13,7 +13,7 @@ public class MineGameLibray : MonoBehaviour
     {
         if (points == 5)
         {
-            textMesh.text = "Parabens!!";
+            textMesh.text = "Parabéns, você concluiu o desafio!!";
             playerData.medalhaBiblioteca = true;
         }
     }

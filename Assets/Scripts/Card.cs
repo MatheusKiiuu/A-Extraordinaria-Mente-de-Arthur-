@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -6,25 +5,33 @@ public class Card : MonoBehaviour, IPointerClickHandler
 {
     public GameObject canvas;
 
-    private bool flip = false;
+    public bool flip = false;
+
+    public Quaternion quaternion;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (!flip)
+        Virar();
+        canvas.GetComponent<MineGameMemory>().CardRevealed(this);
+    }
+
+    private void Update()
+    {
+        if (flip)
         {
-            StartCoroutine(Virar());
-            canvas.GetComponent<MineGameMemory>().CardRevealed(this);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, quaternion, 180f * Time.deltaTime);
+
+            if (Quaternion.Angle(transform.rotation, quaternion) < 0.1f)
+            {
+                transform.rotation = quaternion;
+                flip = false;
+            }
         }
     }
 
-    public IEnumerator Virar()
+    public void Virar()
     {
-        for(int i = 0; i < 180; i++)
-        {
-            transform.Rotate(new Vector3(0, 1, 0));
-            yield return null;
-        }
-
+        quaternion = transform.rotation * Quaternion.Euler(0, 180, 0);
         flip = !flip;
     }
 }

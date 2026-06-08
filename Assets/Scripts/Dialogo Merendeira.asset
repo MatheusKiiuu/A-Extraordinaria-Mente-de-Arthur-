@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eaf360e941f5aa4285fa592cc8071d5, type: 3}
   m_Name: Dialogo Merendeira
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  nameData: 
-  dialogueData: []
+  nameData: Merendeira ( Taverneira )
+  dialogueData:
+  - Oi Arthur
+  - Veio comprar seu lanche ?
+  - Lembre-se que deve colocar o valor certo na bandeja
+  - Coloque quantas moedas precisar
+  - Contanto que o valor esteja correto
