@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,7 +7,7 @@ public class Slot : MonoBehaviour, IDropHandler
     public string tagItem;
     public bool libray;
     public bool normal;
-    public int valor;
+    public decimal valor = 1.50M;
 
     public GameObject Canvas;
 
@@ -30,18 +29,25 @@ public class Slot : MonoBehaviour, IDropHandler
                 Canvas.GetComponent<MineGameLibray>().points++;
                 eventData.pointerDrag.GetComponent<Items>().enabled = false;
             }
+            eventData.pointerDrag.transform.position = transform.position;
         }
-        eventData.pointerDrag.transform.position = transform.position;
     }
 
     private void MoneyDrop(PointerEventData eventData)
     {
-        int n = Convert.ToInt32(eventData.pointerDrag.tag);
+        decimal n = (decimal)eventData.pointerDrag.GetComponent<Items>().valor;
+
         if (valor - n >= 0)
         {
             valor -= n;
             eventData.pointerDrag.GetComponent<Items>().noDrop = false;
             eventData.pointerDrag.GetComponent<Image>().raycastTarget = false;
+
+            if (valor == 0)
+            {
+                Canvas.GetComponent<MineGameMoney>().ResetMoney();
+                valor = Canvas.GetComponent<MineGameMoney>().RetornValor();
+            }
         }
     }
 }

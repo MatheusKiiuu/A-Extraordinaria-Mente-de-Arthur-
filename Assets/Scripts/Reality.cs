@@ -8,11 +8,14 @@ public class Reality : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public PlayerData playerData;
 
     public bool temUI;
+    public bool temFruts;
+
+    public GameObject canvas;
 
     public List<SpriteRenderer> renderers;
-    public List<Sprite> sReal, sRPG, sUIReal, sUIRPG;
+    public List<Sprite> sReal, sRPG, sUIReal, sUIRPG, sUIRealFruts, sUIRPGFruts;
 
-    public List<Image> images;
+    public List<Image> images, imagesFruts;
 
     private Image image;
 
@@ -75,12 +78,22 @@ public class Reality : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
             {
                 images[i].sprite = sUIReal[i];
             }
+            if (temFruts)
+            {
+                int n = canvas.GetComponent<MineGameMoney>().fase;
+                imagesFruts[0].sprite = sUIRealFruts[n];
+            }
         }
         else
         {
             for (int i = 0; i < images.Count; i++)
             {
                 images[i].sprite = sUIRPG[i];
+            }
+            if (temFruts)
+            {
+                int n = canvas.GetComponent<MineGameMoney>().fase;
+                imagesFruts[0].sprite = sUIRPGFruts[n];
             }
         }
     }

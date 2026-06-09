@@ -12,7 +12,7 @@ public class MenuScenes : MonoBehaviour
         playerData.medalhaCantina = false;
         playerData.quarto = false;
         playerData.biblioteca = false;
-        //playerData.cantina = false;
+        playerData.cantina = false;
         playerData.realityReal = false;
 
         SceneManager.LoadScene("Quarto");

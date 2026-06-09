@@ -25,6 +25,6 @@ public class Medal : MonoBehaviour
             medalhas[2].SetActive(true);
 
         if(playerData.medalhaSalaAula && playerData.medalhaBiblioteca && playerData.medalhaCantina)
-            SceneManager.LoadScene("Creditos");
+            SceneManager.LoadScene("Final");
     }
 }

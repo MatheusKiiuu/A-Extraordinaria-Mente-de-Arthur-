@@ -6,11 +6,16 @@ public class Items : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, I
 {
     public bool noDrop = true;
     public bool money;
+    public float valor;
 
-    private Vector3 positionGameObject;
+    public Vector3 positionGameObject;
 
     private Image image;
 
+    private void Awake()
+    {
+        
+    }
     private void Start()
     {
         positionGameObject = transform.position;
@@ -41,8 +46,9 @@ public class Items : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, I
     public void OnEndDrag(PointerEventData eventData)
     {
         if (noDrop)
+        {
             transform.position = positionGameObject;
-        if (!money)
             image.raycastTarget = true;
+        }
     }
 }

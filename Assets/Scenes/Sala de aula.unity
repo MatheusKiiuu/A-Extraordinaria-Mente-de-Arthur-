@@ -1489,15 +1489,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Reality
   playerData: {fileID: 11400000, guid: a9c7af33177dee042aee087685ba8558, type: 2}
   temUI: 1
+  temFruts: 0
+  canvas: {fileID: 0}
   renderers:
   - {fileID: 1183770791}
   - {fileID: 367814494}
+  - {fileID: 498155519}
   sReal:
   - {fileID: 5452959795632447805, guid: d28077bfb538c444a97f9c4121ce0d7b, type: 3}
   - {fileID: 6625587541804756427, guid: f652b204ec5b9874280cde1193504096, type: 3}
+  - {fileID: 4572996325105955597, guid: 9b2fef176d7414c4ea1bac81d5dc6c86, type: 3}
   sRPG:
   - {fileID: -2916500689421215555, guid: 70ef14c9fcd630e4ca351c5f63138f40, type: 3}
   - {fileID: -2217008661123569472, guid: f652b204ec5b9874280cde1193504096, type: 3}
+  - {fileID: 9177586381766942232, guid: 71a1a503581c3d54d812c028eea3710d, type: 3}
   sUIReal:
   - {fileID: 3199617413251844277, guid: bbaf32f497d99db4d8aa188a9a8091b9, type: 3}
   - {fileID: 8840902171103957586, guid: 9a271b21a7486e143b1c37a12191af80, type: 3}
@@ -1519,6 +1524,7 @@ MonoBehaviour:
   - {fileID: 8840902171103957586, guid: 9a271b21a7486e143b1c37a12191af80, type: 3}
   - {fileID: -767521917797948987, guid: 39c3b0b8cb7253949addeb741e2448cd, type: 3}
   - {fileID: 8840902171103957586, guid: 9a271b21a7486e143b1c37a12191af80, type: 3}
+  - {fileID: 7833676895699693487, guid: 86a162073259d9142aabd3e156c05e0e, type: 3}
   sUIRPG:
   - {fileID: 5626155155071646199, guid: e3c99be3567630a49a3b93a332e9f76e, type: 3}
   - {fileID: -4407189932498602813, guid: f4d2bf78f6902834bb6d25af37042bd4, type: 3}
@@ -1540,6 +1546,9 @@ MonoBehaviour:
   - {fileID: -4407189932498602813, guid: f4d2bf78f6902834bb6d25af37042bd4, type: 3}
   - {fileID: 7164747154325022850, guid: 71e287d3bec1dff499aff2d904a4aa24, type: 3}
   - {fileID: -4407189932498602813, guid: f4d2bf78f6902834bb6d25af37042bd4, type: 3}
+  - {fileID: -7172408291982416009, guid: dd3cbd45880f66b48a97ee21718b5b59, type: 3}
+  sUIRealFruts: []
+  sUIRPGFruts: []
   images:
   - {fileID: 2519072131403785267}
   - {fileID: 853756493}
@@ -1561,6 +1570,8 @@ MonoBehaviour:
   - {fileID: 806592747}
   - {fileID: 1183095020}
   - {fileID: 1679183381}
+  - {fileID: 2136088941}
+  imagesFruts: []
 --- !u!1001 &793684608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1672,6 +1683,10 @@ PrefabInstance:
     - target: {fileID: 5182546216148942759, guid: fa775691a3afdc1439d7cd92f412fbe6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042052913849159355, guid: fa775691a3afdc1439d7cd92f412fbe6, type: 3}
+      propertyPath: m_Name
+      value: Estrela
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1921596173853703775, guid: fa775691a3afdc1439d7cd92f412fbe6, type: 3}

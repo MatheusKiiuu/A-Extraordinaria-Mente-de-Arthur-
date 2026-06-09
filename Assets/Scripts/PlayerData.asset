@@ -15,8 +15,8 @@ MonoBehaviour:
   quarto: 0
   salaAula: 0
   biblioteca: 0
-  cantina: 1
+  cantina: 0
   medalhaSalaAula: 0
   medalhaBiblioteca: 0
   medalhaCantina: 0
-  realityReal: 1
+  realityReal: 0
